@@ -32,4 +32,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? I will help you sort it out. [Contact](vishaldevnale@gmail.com)
+Having trouble with Pages? I will help you sort it out. Contact : vishaldevnale@gmail.com)
