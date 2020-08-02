@@ -1,35 +1,23 @@
 ## Welcome to Control Systems Project Tour
 
-Here you will find some control system projects.
+This repository contains different projects explaining the basic concepts of control system.
 
-### Markdown
+**Control Systems:**
+1. PID
+2. LQR
+3. Feedforward control
+4. MPC
+5. Controllability, Robustness, Observability, Stead state error, Overshoot, Settling time
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Projects:**
+1. Cart Pendulum
+2. Two Wheeled Inverted Pendulum
+3. Motor Control
 
-```markdown
-Syntax highlighted code block
+### Note
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VishalDevnale/ControlSystem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+These are all hobby projects I did during my free time and as part of academia. Please review the implementaion before reusing it. Suggetions are Welcome. 
 
 ### Support or Contact
 
-Having trouble with Pages? I will help you sort it out. Contact : vishaldevnale@gmail.com)
+Having trouble with Pages? I will help you sort it out.
