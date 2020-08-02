@@ -14,3 +14,10 @@ Projects:
 1. Cart Pendulum
 2. Two Wheeled Inverted Pendulum
 3. Motor Control
+
+Features: 
+Time response: initial, step, impulse
+Frequency response: Bode and Nyquist plots
+Control analysis: stability, reachability, observability, stability margins
+Control design: eigenvalue placement, linear quadratic regulator
+Estimator design: linear quadratic estimator (Kalman filter)
