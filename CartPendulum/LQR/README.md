@@ -2,6 +2,9 @@
 
 Here cart pendulum system is controlled using LQR gains.
 
+Mathematical model of cart pendulum is available here:
+Theory about the LQR can be found in this PDF.  
+
 **Assumptions and Limitations:**
 1. Full-state feedback is available. i.e. measured x, x_dot, theta, theta_dot is available.
 2. Measurement noise or plant disturbances are not considered.
@@ -37,4 +40,4 @@ These experiments help to verify your design and hadware component selection.
 **Note:** In some paper, it's mentioned that Q=C'C is good value to start. Reason for this is NOT explained. Need further investigation.
 
 You can measure maximum theta which will not make system unstable can be found experimentally for specifc design parameters.
-Experimentally, I observed that this system works fine for theta in the range -65 degree to 65 degree.
+Experimentally, I observed that this system works fine for theta in the range -65 degree to 65 degree. for 	Q = [1,0,0,0;0,1,0,0;0,0,1,0;0,0,0,1];	R = 1;
