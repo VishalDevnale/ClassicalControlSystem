@@ -2,8 +2,12 @@
 
 Here cart pendulum system is controlled using LQR gains.
 
-Mathematical model of cart pendulum is available here:
-Theory about the LQR can be found in this PDF.  
+Mathematical model of cart pendulum in this [PDF](https://github.com/VishalDevnale/ControlSystem/tree/master/CartPendulum/01_InvertedPendulumAndCartModel.pdf)
+
+Theory about the LQR can be found in this [PDF](https://github.com/VishalDevnale/ControlSystem/tree/master/CartPendulum/02_databook_ReadChapter8.pdf).  
+
+Other control methods can be explored here: https://github.com/VishalDevnale/ControlSystem/tree/master/CartPendulum 
+
 
 **Assumptions and Limitations:**
 1. Full-state feedback is available. i.e. measured x, x_dot, theta, theta_dot is available.
