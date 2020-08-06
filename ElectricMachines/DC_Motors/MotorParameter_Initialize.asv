@@ -1,0 +1,17 @@
+%% Motot Parameter Initialization
+clear all
+close all
+clc
+
+%% Define Constants
+% Armature Values
+Va = 250;       % Armature Voltage
+Laf = 3.;      % Magnetizing Inductnace
+Laa = 75e-3;    % Aramaturer Self Inductance
+Ra = 3;         % Armature Resistance
+% Field Values
+Lff = 50;       % Feild Self indcutance
+Rf = 500;       % Feild Resistance
+% Machine Constants
+Bw = 0;         % 
+J = 0.2;
