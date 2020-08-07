@@ -16,10 +16,40 @@ Simulate a sequential start-up with no series field excitation. This means that 
 
 ## Model/Developement:
 
+Simulink model is same as previous experiment (01_AbruptStart) except the way Vf and Va supplied to motor. It's implementaion is shown below.  
+
+![Screenshot](08_HowToChangeVaTiming.PNG)
+
+![Screenshot](09_AppliedVoltages.PNG)
+
 ## Results:
 
+* **Steady State Values**
+
+![Screenshot](02_SS_Comment.PNG)
+
+![Screenshot](04_Figure1.png)
+
+* **Max values**
+
+![Screenshot](03_Max_Comment.PNG)
+
+* **Torque**
+
+![Screenshot](05_Figure2.png)
+
+* **Energy**
+
+![Screenshot](06_Figure3.png)
+
+* **Power**
+
+![Screenshot](07_Figure4.png)
+
 ## Learnings/Comments/Analysis/Remember:
+1. Less energy is consumed in startup phase than earlier experiment. Settling time = 0.73 sec. Energy spent during startup: ~ 242 J.
+Which is significantly less than abrupt startup (01_AbruptStart) at 1015.82 J. It would be useful to find the optimal startup-sequence
+that minimizes energy loss.
 
- 
-
-
+## Future work:
+I tried reducing energy spent for startup of motor in next sections (i.e. [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/03_SequentialRampStart)).
