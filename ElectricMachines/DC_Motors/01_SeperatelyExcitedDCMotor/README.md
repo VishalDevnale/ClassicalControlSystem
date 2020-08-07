@@ -19,9 +19,9 @@ Motor RPM can be controlled similar to torque control and position control using
 
 ## Model/Developement:
 
-![Screenshot](SeperatelyExcitedDCMachine_SimulinkModel_InputOutputPort.png)
+![Screenshot](SeperatelyExcitedDCMachine_SimulinkModel_InputOutputPort.PNG)
 
-![Screenshot](SeperatelyExcitedDCMachine_SimulinkModel.png)
+![Screenshot](SeperatelyExcitedDCMachine_SimulinkModel.PNG)
 
 ## Results:
 
