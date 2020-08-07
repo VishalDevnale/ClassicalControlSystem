@@ -26,11 +26,11 @@
 
 ![Screenshot](05_Figure2.png)
 
-* **Power**
+* **Energy**
 
 ![Screenshot](06_Figure3.png)
 
-* **Energy**
+* **Power**
 
 ![Screenshot](07_Figure4.png)
 
