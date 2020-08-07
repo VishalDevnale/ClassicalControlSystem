@@ -24,9 +24,9 @@ Motor RPM can be controlled similar to torque control and position control using
 ![Screenshot](SeperatelyExcitedDCMachine_SimulinkModel.PNG)
 
 ## Results:
+Model is developed succesully and different startup sequence is examined. Also PID control is explored for torque and position control of motor. Position control is required for servo motors.
 
 ## Learnings/Comments/Analysis/Remember:
 
- 
-
-
+* If stator and rotor driven at the same time then startup loss is high whereas if we start stator and rotor is driven by ramp voltage application then energy loss is less.
+* Simulation of plant model and motor together can help to choose motor according to it's capability and performance. 
