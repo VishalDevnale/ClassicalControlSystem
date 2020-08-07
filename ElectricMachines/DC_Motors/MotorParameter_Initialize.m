@@ -6,7 +6,7 @@ clc
 %% Define Constants
 % Armature Values
 %Va = 250;       % Armature (rotor) Voltage (Volts)
-Laf = 3.8;      % Magnetizing Inductnace (H)
+Laf = 3.8;      % Magnetizing Inductnace (H), mutual inductance M 
 Laa = 60e-3;    % Aramaturer Self Inductance (H)
 Ra = 3.6;         % Armature Resistance (ohm)
 
