@@ -51,5 +51,7 @@ Simulink model is same as previous experiment (01_AbruptStart) except the way Vf
 Which is significantly less than abrupt startup (01_AbruptStart) at 1015.82 J. It would be useful to find the optimal startup-sequence
 that minimizes energy loss.
 
+I recommend to open [01_AbruptStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart) in other tab and compare all graphs and results. You will be surprised by comparing the results.
+
 ## Future work:
 I tried reducing energy spent for startup of motor in next sections (i.e. [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/03_SequentialRampStart)).
