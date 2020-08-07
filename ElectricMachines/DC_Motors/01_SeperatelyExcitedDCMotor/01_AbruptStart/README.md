@@ -1,6 +1,8 @@
 # Seperately Excited DC Motor
 
-## Objective:
+## Objective: 
+
+Simulate an abrupt startup (i.e.both (stator and rotor) windings driven immediately to rated voltage).
 
 ## Model/Developement:
 

@@ -8,7 +8,7 @@
    * Anyalysing factors: Energy lost, settling time, current ratings. 
    * Methods explored:
    
-      *  **Abrupt Start:** Armature and Stator voltage applied at the same time.
+      *  **Abrupt Start:** Simulate an abrupt startup (i.e.both (stator and rotor) windings driven immediately to rated voltage).
       *  **Sequential Start:** Stator is energised first and once field is created armature is connected to rated voltage.
       *  **Ramp Start:** Simulate a controlled voltage start, in which the voltages can be ramped or otherwise adjusted between 0 and 100% of rated voltage, independently on the two windings. Propose a sequence to reduce starting energy losses. 
 
