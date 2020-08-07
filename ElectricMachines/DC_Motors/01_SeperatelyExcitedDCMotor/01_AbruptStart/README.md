@@ -15,7 +15,8 @@
 * **Steady State Values**
 
 ![Screenshot](02_SS_Comment.PNG)
-![Screenshot](04_Figure1.PNG)
+
+![Screenshot](04_Figure1.png)
 
 * **Max values**
 
@@ -23,15 +24,15 @@
 
 * **Torque**
 
-![Screenshot](05_Figure2.PNG)
+![Screenshot](05_Figure2.png)
 
 * **Power**
 
-![Screenshot](06_Figure3.PNG)
+![Screenshot](06_Figure3.png)
 
 * **Energy**
 
-![Screenshot](07_Figure4.PNG)
+![Screenshot](07_Figure4.png)
 
 ## Learnings/Comments/Analysis/Remember:
 1. Steadt state analysis performed for Va=250, Vf=250.
