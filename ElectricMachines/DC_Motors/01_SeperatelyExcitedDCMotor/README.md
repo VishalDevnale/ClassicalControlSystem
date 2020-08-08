@@ -2,7 +2,7 @@
 
 ## Objective:
 
-1. Implement Seperately Excited DC Motor **Simulink model**
+1. Implement Seperately Excited DC Motor [Simulink model](https://github.com/VishalDevnale/ControlSystem/blob/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart/SeperatelyExcited.slx)
 2. Analyse different methodologies to start the seperately excited DC motor.
 
    * Anyalysing factors: Energy lost, settling time, current ratings. 
