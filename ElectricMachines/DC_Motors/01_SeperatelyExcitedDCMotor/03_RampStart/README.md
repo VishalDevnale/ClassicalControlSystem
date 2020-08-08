@@ -16,7 +16,7 @@ Here we are trying differnet startup mechanisim. Rotor is winding is energized a
 
 Simulink model is same as previous experiments (01_AbruptStart or 02_SequentialStart) except the way Vf and Va supplied to motor. It's implementaion is shown below.
 
-Tou can try different ramp slopes by changing value as shown in below images:
+You can try different ramp slopes by changing value as shown in below images:
 
 ![Screenshot](08_HowToChangeVaTiming.PNG)
 
