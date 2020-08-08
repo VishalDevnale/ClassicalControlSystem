@@ -38,7 +38,7 @@ Va for the gain shown in above image:
 
 * **Position (rad)**
 
-![Screenshot](11_position.PNG)
+![Screenshot](11_position.png)
 
 * **Steady State Values**
 
@@ -76,7 +76,7 @@ For kp = 45, ki = 100, All system parameters are getting stabilized at 1 sec wit
 is ±0.01 rad. Energy lost for this stabilization is 124.507 W. Ia goes negative for these control parameters
 i.e. small regen.
 
-![Screenshot](11_position.PNG)
+![Screenshot](11_position.png)
 
 **Test 3:**
 
