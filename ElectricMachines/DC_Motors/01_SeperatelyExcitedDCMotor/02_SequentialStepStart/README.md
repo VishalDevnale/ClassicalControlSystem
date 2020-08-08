@@ -2,7 +2,7 @@
 
 ## Objective: 
 
-In last [experimentaion](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart), we noticed energy lost is high for startup.
+In last [experiment](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart), we noticed energy lost is high for startup.
 Here we are trying differnet startup mechanisim. Rotor is winding is energized after stator, NOT at the same time like previous experiment.
 
 NOTE: Same concept is applicable to shunt DC motor: Refer to image:
@@ -54,7 +54,7 @@ that minimizes energy loss.
 I have delayed armature energizitaion by 0.5 seconds which helped me to reduce the energy required for startup.
 But, note that settling time of system is increased slightly. i.e. 0.73 sec from 0.7 sec. In next experiment we will focus on reducing settling time and startup energy both at the same time.  
 
-You can try different delat timing for armature energazation and plot energy required for startup against that delay. Choose proper delay time. Energy required will be constant after perticular delay time which i s0.5 sec in this case. Refer following graph: 
+You can try different delay timing for armature energazation and plot energy required for startup against that delay. Choose proper delay time. Energy required will be constant after perticular delay time which is 0.5 sec in this case. Refer following graph: 
 
 I recommend to open [01_AbruptStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart) in other tab and compare all graphs and results. You will be surprised by comparing the results.
 
