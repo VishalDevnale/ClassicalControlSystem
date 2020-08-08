@@ -1,4 +1,4 @@
-# Seperately Excited DC Motor: Sequential Start
+# Seperately Excited DC Motor: Sequential Step start
 
 ## Objective: 
 
@@ -51,7 +51,12 @@ Simulink model is same as previous experiment (01_AbruptStart) except the way Vf
 Which is significantly less than abrupt startup (01_AbruptStart) at 1015.82 J. It would be useful to find the optimal startup-sequence
 that minimizes energy loss.
 
+I have delayed armature energizitaion by 0.5 seconds which helped me to reduce the energy required for startup.
+But, note that settling time of system is increased slightly. i.e. 0.73 sec from 0.7 sec. In next experiment we will focus on reducing settling time and startup energy both at the same time.  
+
+You can try different delat timing for armature energazation and plot energy required for startup against that delay. Choose proper delay time. Energy required will be constant after perticular delay time which i s0.5 sec in this case. Refer following graph: 
+
 I recommend to open [01_AbruptStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart) in other tab and compare all graphs and results. You will be surprised by comparing the results.
 
 ## Future work:
-I tried reducing energy spent for startup of motor in next sections (i.e. [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/03_SequentialRampStart)).
+I tried reducing energy spent for startup of motor in next sections (i.e. [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/03_RampStart) ).
