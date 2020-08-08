@@ -1,4 +1,4 @@
-# Seperately Excited DC Motor
+# Seperately Excited DC Motor : Abrupt Start
 
 ## Objective: 
 
