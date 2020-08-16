@@ -42,4 +42,4 @@
 5. Max armature current 150 Amp.
 
 ## Future work:
-I tried reducing energy spent for startup of motor in next sections [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_ShuntDCMotor/02_RampStart).
+I tried reducing energy spent for startup of motor in next sections [ramp startup](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/02_ShuntDCMotor/02_RampStart).
