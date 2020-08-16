@@ -2,7 +2,7 @@
 
 ## Objective:
 
-1. Implement shunt DC Motor [Simulink model](https://github.com/VishalDevnale/ControlSystem/blob/master/ElectricMachines/DC_Motors/02_ShuntDCMotor/01_StepStart/SeperatelyExcited.slx)
+1. Implement shunt DC Motor [Simulink model](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/02_ShuntDCMotor/01_StepStart/Shunt.slx)
 2. Analyse different methodologies to start the Shunt DC motor.
 
    * Anyalysing factors: Energy lost, settling time, current ratings. 
