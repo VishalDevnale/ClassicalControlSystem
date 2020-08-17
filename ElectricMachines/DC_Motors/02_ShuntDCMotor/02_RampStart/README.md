@@ -46,13 +46,15 @@ You can try different ramp slopes by changing value as shown in below images:
 
 ## Learnings/Comments/Analysis/Remember:
 1. Less energy is consumed in startup phase than earlier experiments. Settling time = 1.5 sec. Energy spent during startup: ~ 17.29 kJ.
-It would be useful to find the optimal startup-sequence that minimizes energy loss.
+In case of step start, energy loss is ~ 18 kJ. It would be useful to find the optimal startup-sequence that minimizes energy loss.
 
 Here settling time i.e 1.5 sec is more compared to abrupt/step startup (01_SteptStart) at 1 sec.
 
+In step start, maximum armature current is 150 Amp (This might be damaging to armature windings), whereas in ramp startup it's 88 Amp (this can be safe comapared to step start max armature current).
+
 You can try different slope to optimize settling time and startup-sequence. 
 
-I recommend to open [01_StepStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/01_SeperatelyExcitedDCMotor/01_AbruptStart) and [02_SequentialStepStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/02_ShuntDCMotor/01_StepStart) in other tab and compare all graphs and results.
+I recommend to open [01_StepStart](https://github.com/VishalDevnale/ControlSystem/tree/master/ElectricMachines/DC_Motors/02_ShuntDCMotor/01_StepStart) in other tab and compare all graphs and results.
 
 ## Future work:
 Here we conclude the startup sequence for shunt DC motor.
